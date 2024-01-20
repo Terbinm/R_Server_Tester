@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>R Service Interface</title>
+</head>
+<body>
+    <h1>R Service Interface</h1>
+    <form method="POST">
+        <label for="value">Enter a value:</label><br>
+        <input type="text" id="value" name="value"><br>
+        <input type="submit" value="Calculate">
+    </form>
+    {% if result %}
+    <h2>Result: {{ result }}</h2>
+    {% endif %}
+</body>
+</html>
